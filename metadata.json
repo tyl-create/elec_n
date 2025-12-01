@@ -1,0 +1,5 @@
+{
+  "name": "靜電場 3D 實驗室",
+  "description": "一個 3D 靜電交互模擬。放置電荷，即時觀察電場、電位和受力，並支援響應式向量視覺化。",
+  "requestFramePermissions": []
+}
