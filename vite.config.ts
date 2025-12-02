@@ -1,11 +1,10 @@
-// vite.config.ts
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // 把 'your-repo-name' 改成你在 GitHub 上面的專案名稱
-  // 例如你的專案叫 'physics-lab'，這裡就填 '/physics-lab/'
+  // 把下面的 '你的專案名稱' 改成你 GitHub Repository 的名字
+  // 例如你的網址是 github.com/user/electro-lab，這裡就填 '/electro-lab/'
   base: '/elec_n/', 
 })
